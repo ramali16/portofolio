@@ -1,0 +1,162 @@
+body{
+    font-family:'century Gorhic',calibri,serif;
+    font-size:13px;
+    margin:0px;
+    padding:0px;
+}
+h1{
+    font-size:40px;
+    font-weight:normal;
+    text-align:center
+}
+header{
+    height: 100px;
+}
+footer{
+    height: 80px;
+    padding-top:30px;
+    text-align:center;
+    background-color:#C5C5C5;
+    border-top:2px solid #AAA;
+}
+nav{
+    width:100%;
+    background-color: #424568;
+}
+nav ul{
+     margin:0px;
+    padding:0px;
+}
+nav li{
+    list-style-type:none;
+    float:left;
+}
+nav a{
+    display:inline-block;
+    text-decoration:none;
+    padding:20px 30px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size:15px;
+}
+.table{
+    display:table;
+    margin:0 Auto;
+}
+.menu-ind:hover, .presentation{
+    border-top: 5px solid #4C8;
+    background-color:RGBa(64, 200, 130, 0.15);
+    
+}
+.menu-comp:hover, .parcours{
+    border-top: 5px solid purple;
+    background-color:RGBa(241, 211, 79, 0.15);
+    
+}
+.menu-loi:hover, .competences{
+    border-top: 5px solid yellow;
+    background-color:RGBa(000, 112, 193, 0.15);
+    
+}
+.menu-con:hover, .recommendation{
+    border-top: 5px solid red;
+    background-color:RGBa(228, 77, 38, 0.15);
+    
+}
+.menu-Aut:hover{
+    border-top: 5px solid  black;
+    background-color:RGBa(64, 200, 130, 0.15);
+    
+}
+nav li:hover a{
+    padding:15px 30px 20px  30px;
+}
+
+section{
+    width:100%;
+    min-height:300px;
+    padding-bottom:10px;
+    margin-bottom: 10px;
+    
+}
+.sec{
+    margin: 0px 10%;
+}
+.left{
+    float:left;
+    width:30%;
+}
+.right,#right{
+    float:left;
+    width:70%;
+}
+.cleft, .cright, .sousleft, .susright{
+    width: 50%;
+    float:left;
+}
+.sec::after, .exp::after, .reco::after{
+    content:"";
+    display:table;
+    clear:both;
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:780px){
+    header{
+        height:50px;
+    }
+    h1{
+        font-size:28px;
+        margin:20px 0px 0px 0px;
+    }
+    nav li a{
+        font-size:12px;
+        padding:10px;
+    }
+    nav li:hover a{
+        padding:5px 10px 10px 10px;
+    }
+}
+img{
+    width:150px;
+    padding:0px;
+}
+#right{
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    font-size:30px;
+    padding-bottom:5.5px;
+    
+    
+}
+.right1{
+     background-color: RGBa(70, 73, 78, 0.15);
+}
+.right2{
+     background-color: RGBa(100, 1, 100, 0.15);
+}
+.right3{
+     background-color: RGBa(122, 12, 28, 0.15);
+}
+
+
+#left1{
+    background-color: RGBa(224, 43, 28, 0.15);
+}
+#left2{
+    background-color: RGBa(40, 100, 13, 0.15);
+}
+#left3{
+    background-color: RGBa(64, 20, 130, 0.15);
+}
+
